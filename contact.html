@@ -2,11 +2,17 @@
 <html>
   <head>
       <link rel="stylesheet" href="style/main.css">
+      <nav class="navigation">
+    <div class="home"> <a href="index.html"> Home </a> </div>
+    <div class="ab"> <a href="about.html"> About</a> </div>
+    <div class="resume"> <a href="resume.html"> Resume</a> </div>
+    <div class="contact"> <a href="contact.html"> Contact</a> </div>
+    </nav>
       <title>Contact</title>
     </head>
     <body id=contact>
       <form action="https://formspree.io/email@domain.tld" method="POST" />
-      
+
   <label for="fname">First Name</label>
   <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -16,18 +22,11 @@
   <label for="email">Email </label>
   <input type="email" id="email" >
 
-  <input type="radio" name="gender" value="male" > Male<br>
-    <input type="radio" name="gender" value="female"> Female<br>
+
   <label for="message"> Message </label>
   <textarea id="message"></textarea>
 
 
-  <label for="country">Country</label>
-  <select id="country" name="country">
-  <option value="usa">USA</option>
-    <option value="australia">Australia</option>
-    <option value="canada">Canada</option>
-  </select>
 
   <input type="submit" value="Submit">
 
@@ -36,13 +35,6 @@
 </form>
 
 
-      <nav>
-        <ul>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="Projects.html">Projects</a></li>
-      </ul>
-      </nav>
+
   </body>
-</head>
+
