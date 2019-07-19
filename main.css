@@ -1,0 +1,100 @@
+#index
+ {background-color:mediumvioletred;
+}
+
+#contact
+{background-color:turquoise;
+    font-family: 'Dosis';font-size: 22px;
+}
+li:hover{
+  background-image: white
+}
+.re
+ {background-color:palevioletred;
+   text-align: center;
+}
+
+.navigation > div{
+  padding: 5px 70px 8px;
+  text-align: center;
+  font-size: 2em;
+  color: violet;
+  overflow: hidden;
+  float: left;
+  display: block;
+  border-style: solid;
+  border-color: magenta;
+}
+
+nav { list-style: none;
+display: flex;
+justify-content: space-around;
+font-weight: bold;}
+
+.navigation a:hover {
+  background-color: magenta;
+}
+.navigation > div:nth-child(1) {
+  background-color: violet;
+}
+
+.navigation > div:nth-child(2){
+  background-color: violet;
+}
+
+.navigation > div:nth-child(3){
+  background-color: violet;
+}
+
+.navigation > div:nth-child(4){
+  background-color: violet;
+}
+.cb
+{
+  background-color:#66ff99
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 100px;
+  grid-template-columns: 200px 200px 200px 200px;
+
+}
+
+.melo {
+  width: 130%;
+  height:100%;
+  min-width:400;
+}
+
+.taco {
+  width: 130%;
+  height:100%;
+  min-width:400;
+}
+
+.coco {
+  width: 130%;
+  height:100%;
+  min-width:400;
+}
+
+.al {
+  width: 130%;
+  height:100%;
+  min-width:400;
+}
+
+.Bogan {
+  width: 130%;
+  height:100%;
+  min-width:400;
+}
+
+.light {
+  width: 130%;
+  height:100%;
+  min-width:400;
+}
